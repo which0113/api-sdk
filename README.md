@@ -44,8 +44,8 @@ apisdk
 ```xml
 <dependency>
     <groupId>com.which</groupId>
-    <artifactId>api-sdk</artifactId>
-    <version>0.0.2</version>
+  <artifactId>api-sdk</artifactId>
+  <version>0.0.3</version>
 </dependency>   
 ```
 
