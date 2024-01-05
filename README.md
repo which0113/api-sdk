@@ -1,7 +1,7 @@
 <p align="center">
     <img src=doc/logo.ico width=188/>
 </p>
-<h1 align="center">API-SDK</h1>
+<h1 align="center">咸鱼-API SDK</h1>
 <p align="center"><strong>咸鱼-API 接口开放平台开发者工具包</strong></p>
 <div align="center">
 <a target="_blank" href="https://github.com/which0113/api-backend">
