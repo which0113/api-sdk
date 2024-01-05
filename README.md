@@ -1,5 +1,18 @@
+<p align="center">
+    <img src=doc/logo.ico width=188/>
+</p>
 <h1 align="center">API-SDK</h1>
 <p align="center"><strong>咸鱼-API 接口开放平台开发者工具包</strong></p>
+<div align="center">
+<a target="_blank" href="https://github.com/which0113/api-backend">
+    <img alt="" src="https://github.com/which0113/api-backend/badge/star.svg?theme=gvp"/>
+</a>
+    <img alt="Maven" src="https://raster.shields.io/badge/Maven-3.8.1-red.svg"/>
+<a target="_blank" href="https://www.oracle.com/technetwork/java/javase/downloads/index.html">
+        <img alt="" src="https://img.shields.io/badge/JDK-1.8+-green.svg"/>
+</a>
+    <img alt="SpringBoot" src="https://raster.shields.io/badge/SpringBoot-2.7+-green.svg"/>
+</div>
 
 ### 目录结构 📝
 
@@ -83,24 +96,24 @@ private ApiService apiService;
 - 示例一 ：**通过配置文件 推荐👍**
 
 ```java
-try{
-        PoisonousChickenSoupResponse poisonousChickenSoup=apiService.getPoisonousChickenSoup();
-        System.out.println("poisonousChickenSoup = "+poisonousChickenSoup);
-        }catch(ApiException e){
-        log.error(e.getMessage());
-        }
+try {
+    PoisonousChickenSoupResponse poisonousChickenSoup = apiService.getPoisonousChickenSoup();
+    System.out.println("poisonousChickenSoup = " + poisonousChickenSoup);
+} catch (ApiException e) {
+    log.error(e.getMessage());
+}
 ```
 
 - 示例二 ：主动注入
 
 ```java
-try{
-        ApiClient apiClient=new ApiClient("你的 accessKey","你的 secretKey");
-        PoisonousChickenSoupResponse poisonousChickenSoup=apiService.getPoisonousChickenSoup(apiClient);
-        System.out.println("poisonousChickenSoup = "+poisonousChickenSoup);
-        }catch(ApiException e){
-        log.error(e.getMessage());
-        }
+try {
+    ApiClient apiClient = new ApiClient("你的 accessKey", "你的 secretKey");
+    PoisonousChickenSoupResponse poisonousChickenSoup = apiService.getPoisonousChickenSoup(apiClient);
+    System.out.println("poisonousChickenSoup = " + poisonousChickenSoup);
+} catch (ApiException e) {
+    log.error(e.getMessage());
+}
 ```
 
 响应：
