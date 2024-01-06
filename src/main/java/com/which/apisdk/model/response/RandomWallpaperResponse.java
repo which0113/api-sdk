@@ -10,5 +10,5 @@ import lombok.EqualsAndHashCode;
 @EqualsAndHashCode(callSuper = true)
 public class RandomWallpaperResponse extends ResultResponse {
     private static final long serialVersionUID = 1L;
-    private String imgUrl;
+    private String imgurl;
 }
