@@ -1,5 +1,5 @@
 <p align="center">
-    <img src=doc/logo.ico width=188/>
+    <img src=https://img.freefish.love/logo.png width=188/>
 </p>
 <h1 align="center">咸鱼-API SDK</h1>
 <p align="center"><strong>咸鱼-API 接口开放平台开发者工具包</strong></p>
