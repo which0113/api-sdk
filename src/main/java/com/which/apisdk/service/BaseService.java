@@ -32,9 +32,9 @@ public abstract class BaseService implements ApiService {
     private ApiClient apiClient;
 
     /**
-     * 网关HOST
+     * 网关 HOST/API
      */
-    private String gatewayHost = "https://gateway.freefish.love/api";
+    private String gatewayHost = "https://api.freefish.love/api";
 
     /**
      * 检查配置
