@@ -45,7 +45,7 @@ apisdk
 <dependency>
     <groupId>com.which</groupId>
   <artifactId>api-sdk</artifactId>
-  <version>0.0.8</version>
+  <version>0.0.9</version>
 </dependency>   
 ```
 

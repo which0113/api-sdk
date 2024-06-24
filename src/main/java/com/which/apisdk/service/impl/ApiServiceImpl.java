@@ -80,4 +80,15 @@ public class ApiServiceImpl extends BaseService implements ApiService {
     public ResultResponse getWeatherInfo(WeatherRequest request) throws ApiException {
         return request(request);
     }
+
+    @Override
+    public ResultResponse getCommonInfo(ApiClient apiClient, CommonRequest request) throws ApiException {
+        return request(apiClient, request);
+    }
+
+    @Override
+    public ResultResponse getCommonInfo(CommonRequest request) throws ApiException {
+        return request(request);
+    }
+
 }

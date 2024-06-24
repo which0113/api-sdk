@@ -142,4 +142,24 @@ public interface ApiService {
      * @throws ApiException 业务异常
      */
     ResultResponse getWeatherInfo(WeatherRequest request) throws ApiException;
+
+    /**
+     * 获取通用信息
+     *
+     * @param apiClient api客户端
+     * @param request   请求
+     * @return {@link ResultResponse }
+     * @throws ApiException api异常
+     */
+    ResultResponse getCommonInfo(ApiClient apiClient, CommonRequest request) throws ApiException;
+
+    /**
+     * 获取通用信息
+     *
+     * @param request 请求
+     * @return {@link ResultResponse }
+     * @throws ApiException 业务异常
+     */
+    ResultResponse getCommonInfo(CommonRequest request) throws ApiException;
+
 }
